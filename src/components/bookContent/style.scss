@@ -1,0 +1,86 @@
+.componentBox {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bookContentBackgroundColor);
+}
+
+.infoBox {
+    display: flex;
+    flex-direction: column;
+    background: var(--bookContentBackgroundColor);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    flex-grow: 1;
+    padding: 20px;
+    justify-content: space-between;
+    background-color: var(--bookContentInnerBackgroundColor);
+    height: 200px;
+    box-sizing: border-box;
+}
+.infoTitle {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.infoTitleHeaderStart {
+    font-size: 18px;
+    text-align: left;
+    color: var(--appHeaderTextColor);
+}
+
+.infoTitleHeaderEnd {
+    font-size: 18px;
+    text-align: right;
+    color: var(--appHeaderTextColor);
+}
+
+.infoTitleValue {
+    font-size: 12px;
+    text-align: center;
+    color: var(--appRegularTextColor);
+    padding: 2px;
+}
+
+.infoAuthor {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.infoAuthourHeaderStart {
+    font-size: 18px;
+    text-align: left;
+    color: var(--appHeaderTextColor);
+}
+
+.infoAuthourHeaderEnd {
+    font-size: 18px;
+    text-align: right;
+    color: var(--appHeaderTextColor);
+}
+
+.infoAuthourValue {
+    font-size: 12px;
+    text-align: center;
+    color: var(--appRegularTextColor);
+}
+
+
+.img {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+}

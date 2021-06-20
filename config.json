@@ -1,0 +1,6 @@
+{
+    "searchWaitBeforeRequestTimeout" : 1000,
+    "searchBadRequestTimeout" : 100000000,
+    "searchUrl" : "https://openlibrary.org/search.json?title=",
+    "coverUrl": "http://covers.openlibrary.org/b/"
+}

@@ -1,0 +1,9 @@
+node_modules
+out
+.idea
+logs
+yarn.lock
+build
+out/*
+dist
+.DS_Store

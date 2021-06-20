@@ -1,0 +1,13 @@
+html {
+    background-color: var(--appBackgrounColor);
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+#root {
+    background-color: var(--appBackgrounColor);
+    height: 100%;
+}
